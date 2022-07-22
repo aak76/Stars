@@ -12,7 +12,6 @@ namespace Stars
 {
     public partial class Form1 : Form
     {
-
         public class Star
         {
             public float X { get; set; }
