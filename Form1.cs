@@ -69,6 +69,8 @@ namespace Stars
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            Cursor.Hide();
+
             pictureBox1.Image = new Bitmap(pictureBox1.Width, pictureBox1.Height);
 
             graphics = Graphics.FromImage(pictureBox1.Image);
