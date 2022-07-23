@@ -85,5 +85,10 @@ namespace Stars
 
             timer1.Start();
         }
+
+        private void Form1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            Environment.Exit(0);
+        }
     }
 }
